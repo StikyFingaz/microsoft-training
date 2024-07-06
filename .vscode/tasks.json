@@ -7,7 +7,7 @@
         "type": "process",
         "args": [
             "build",
-            "${workspaceFolder}/GetStarted/GetStarted.sln",
+            "${workspaceFolder}/Projects/ContosoPets/ContosoPets.sln",
             "/property:GenerateFullPaths=true",
             "/consoleloggerparameters:NoSummary;ForceNoAlign"
         ],
@@ -19,7 +19,7 @@
         "type": "process",
         "args": [
             "publish",
-            "${workspaceFolder}/GetStarted/GetStarted.sln",
+            "${workspaceFolder}/Projects/ContosoPets/ContosoPets.sln",
             "/property:GenerateFullPaths=true",
             "/consoleloggerparameters:NoSummary;ForceNoAlign"
         ],
@@ -33,7 +33,7 @@
             "watch",
             "run",
             "--project",
-            "${workspaceFolder}/GetStarted/GetStarted.sln"
+            "${workspaceFolder}/Projects/ContosoPets/ContosoPets.sln"
         ],
         "problemMatcher": "$msCompile"
     }
